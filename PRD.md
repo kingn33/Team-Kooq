@@ -178,7 +178,7 @@ AUTHOR : Team Kooq
 10. Acceptance Criteria
        Each core workflow must pass the following verification tests before MVP sign-off:
 
-       01. AC-01 (Privacy Redaction on Public Feed):
+       01. Privacy Redaction on Public Feed:
 
          i.   Given a finder logs a found Student ID card with a secret challenge answer "22/1045",
 
@@ -212,7 +212,7 @@ AUTHOR : Team Kooq
 
          iii. Then the custody location remains WITH_FINDER (Transfer Pending) until a user with CUSTODIAN role assigned to Samuel Akande Hall confirms receipt, creating an immutable record in CustodyAuditLog.  
 
-        05.  AC-05 (Zero-Dispute Handover Closure):
+        05.  Zero-Dispute Handover Closure:
 
          i. Given an item is in CLAIM_APPROVED status with PIN 4829,
 
